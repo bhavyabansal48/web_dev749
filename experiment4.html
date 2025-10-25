@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+       <title>Hotel Room Booking Form</title>
+    </head>
+    <body>
+        <h1 align="center">HOTEL ROOM BOOKING FORM</h1>
+        <form action="#" method="post">
+        <!--peronal information-->
+        <fieldset>
+            <legend> PERSONAL INFORMATION</legend>
+               <label for="NAME">full name:</label>
+        <input type = "text" id="name" id="name" name="Name" required>
+        <br><br>
+        <label for="email">Email</label>
+       <input type="email" id="email" name="email" required>
+       <br><br>
+       <label for=""phone">phone number:</label>
+       <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+       <br><br>
+       <FIELDSET>
+        <legend>BOOKING DETAILS</legend>
+
+       <!--booking details-->
+       <label for="checkin">check-in date:</label>
+       <input type="date" id="checkin" name="checkin" required>
+       <br><br>
+       <label for="checkout">check-out:</label>
+       <input type="date" id="checkout" name="checkout" required>
+       <br><br>
+       <label for="guests">number of Guest</label>
+       <input type="number" id="guests" name="guests" min="1" max="10" required>
+       <br><br>
+    <label for="room">Room Type:</label>
+    <select id="room" name="room" required>
+        <option value="single">single room</option>
+        <option value="double">double room</option>
+        <option value="suite">suite</option>
+    </select>
+       </FIELDSET>
+    <br><br>
+    <FIELDSET>
+        <LEGEND>ADDITIONAL SERVICES</LEGEND>
+    <label for="request">special request:</label>
+    <textarea id="requests" name="requests" rows="4" cols="50"></textarea>
+    </FIELDSET>
+    <br><br>
+    <button type="submit">book now</button>
+    <button type="reset">reset</button>
+        </form>
+    </body>
+</html>
