@@ -1,0 +1,21 @@
+body{
+    font-family: Arial , sans-serif;
+    margin :20px;
+}
+
+.block-menu a {
+    display:block;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin:5px 0;
+    text-decoration:none;
+ }
+ .inline-menu a{
+     display:inline;
+     background-color:green;
+     color:white;
+     padding:5px;
+     margin: 5px;
+     text-decoration:none;
+ }
